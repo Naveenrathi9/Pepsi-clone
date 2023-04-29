@@ -1,0 +1,315 @@
+body {
+  margin: 0%;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: blue;
+}
+
+.header img {
+  max-height: 100px;
+  margin-left: 20px;
+  padding: 1px;
+  height: 90px;
+  width: 110px;
+}
+
+.header ul {
+  float: right;
+  margin-right: 850px;
+  margin-top: 28px;
+  color: rgb(248, 248, 248);
+  font-size: large;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header li:hover {
+  color: rgb(82, 167, 223);
+  transform: scale(1.1);
+}
+
+.header li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.header button {
+  display: inline-block;
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 1200px;
+  background-color: blue;
+  border-color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.header button:hover {
+  color: rgb(136, 133, 133);
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.back {
+  display: inline-block;
+}
+
+.back {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  margin-top: -19px;
+  position: relative;
+
+}
+
+.child {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+.baccha {
+  position: absolute;
+  top: 507px;
+  width: 140px;
+  height: 185px;
+  left: 180px;
+  cursor: pointer;
+}
+
+.baccha1 {
+  position: absolute;
+  top: 515px;
+  width: 150px;
+  left: 400px;
+  height: 165px;
+  cursor: pointer;
+}
+
+.baccha:hover {
+  transform: scale(1.2);
+}
+
+.baccha1:hover {
+  transform: scale(1.2);
+}
+
+.back2 {
+  margin: -5px;
+  background-image: linear-gradient(rgb(33, 33, 119), rgb(86, 86, 232));
+  width: 1530px;
+  height: 1000px;
+  position: relative;
+}
+
+#parent1 {
+  margin-top: 30px;
+  height: 700px;
+  width: 500px;
+  margin-left: 80px;
+  text-align: center;
+  padding: 90px;
+  justify-content: center;
+  position: relative;
+}
+
+#parent1:hover {
+  transform: rotate(-10deg);
+}
+
+#int {
+  position: absolute;
+  left: 800px;
+  top: 200px;
+  height: 500px;
+  width: 600px;
+}
+
+#int:hover {
+  transform: scale(1.2);
+}
+
+.back2 button {
+  position: absolute;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+  cursor: pointer;
+  top: 800px;
+  left: 1050px;
+}
+
+.back2 button:hover {
+  transform: scale(1.2);
+  color: rgb(13, 25, 154);
+  background-color: white;
+}
+
+.back3 {
+  margin: 0%;
+  background-image: linear-gradient(rgb(33, 33, 119), rgb(86, 86, 232));
+  width: 1530px;
+  height: 820px;
+  position: relative;
+}
+
+#three1 {
+  height: 700px;
+  width: 600px;
+  margin-left: 80px;
+  margin-top: 120px;
+  position: relative;
+}
+#three2{
+  top: 280px;
+  position: absolute;
+  right: 130px;
+  height: 400px;
+  width: 600px;
+}
+.media{
+  margin-top: -71px;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  font-size: 60px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  color: rgb(62, 62, 182);
+}
+#face{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  
+}
+ #inst{
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+ #snap{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  background-color: rgb(65, 56, 56);
+}
+ #twit{
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+#face:hover{
+  transform:rotate(-10deg) scale(1.2);
+}
+#inst:hover{
+  transform:rotate(-10deg) scale(1.2);
+}
+#snap:hover{
+  transform:rotate(-10deg) scale(1.2);
+}
+#twit:hover{
+  transform:rotate(-10deg) scale(1.2);
+}
+.footer{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-color: rgb(51, 80, 245);
+}
+#last{
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
+}
+#one{
+ margin-top:110px;
+ margin-left: 180px;
+ list-style: none;
+ color: rgb(249, 249, 249);
+ line-height: 30px;
+ font-size: 20px;
+
+}
+#two{
+  margin-top:110px;
+  margin-left: 20px;
+  list-style: none;
+  color: white;
+  line-height: 30px;
+  font-size: 20px;
+ }
+ #three{
+  margin-top:110px;
+  margin-left: 20px;
+  color: white;
+  list-style: none;
+  line-height: 30px;
+  font-size: 20px;
+ }
+ #one li:hover{
+  color: rgb(124, 158, 251);
+ }
+ #two li:hover{
+  color:rgb(124, 158, 251);
+ }
+ #three li:hover{
+  color: rgb(124, 158, 251);
+ }
+
+ #but{
+  height: 30px;
+  width: auto;
+  margin-top: 100px;
+  margin-left: 300px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border-width: 3px;
+  text-transform: uppercase;
+ }
+ #but:hover{
+  color: rgb(76, 76, 210);
+  background-color: white;
+  transform: scale(1.2);
+ }
+ .khatam{
+  margin-top: 160px;
+  margin-left:-180px;
+  font-size: 30px;
+  padding: 20px;
+ }
+ .khatam:hover{
+  color: rgb(253, 253, 253);
+ }
